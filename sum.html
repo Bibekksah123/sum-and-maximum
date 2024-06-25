@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let arr=[1,3,45,5,56,76,4,3];
+    let sum=0;
+    function sumnumer(arr){
+   for(let i=0; i<arr.length; i++){
+    sum+=arr[i];
+   }
+   return sum;
+  
+
+    }
+    console.log(sumnumer(arr));
+    let number=[1,2,4,5,6,7,8];
+    function findmax(number){
+      let max=0;
+      for(let i=0; i<number.length; i++){
+        if(number[i]>max){
+          max=number[i];
+        }
+       
+      }
+      return max;
+    }
+    console.log(findmax(number));
+
+  </script>
+  
+</body>
+</html>
